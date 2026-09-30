@@ -114,8 +114,8 @@
       p.mb-5 Además de los entornos #[i Linux], PostgreSQL dispone de instaladores oficiales para el sistema operativo Windows, los cuales automatizan gran parte del proceso de instalación y configuración inicial. A continuación, se presenta un recurso audiovisual que explica paso a paso el procedimiento para instalar PostgreSQL en Windows, realizar la configuración inicial y ejecutar los primeros comandos mediante la consola #[b psql].
       figure(data-aos="zoom-in").mb-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption.fit___figcaption-video Video. Instalación y primeros comandos en psql
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/3aNXanIIfjE" title="Base de datos con POSTGRESQL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption.fit___figcaption-video Video. Base de datos con POSTGRESQL
       p.mb-0 Este procedimiento permite disponer de un entorno local completamente funcional para iniciar el desarrollo, la administración y las pruebas de bases de datos utilizando PostgreSQL.
       Separador
       #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
