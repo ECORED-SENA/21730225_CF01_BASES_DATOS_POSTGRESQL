@@ -78,7 +78,7 @@
                   .row.justify-content-center.align-items-center
                     .col-xl-6.mb-4
                       h4 Reglas de cardinalidad
-                      p.mb-0 Definen la cantidad de entidades que pueden asociarse entre sí dentro de una relación. Se clasifican en relaciones de #[b uno a uno (1:1)], #[b uno a muchos (1)] y #[b muchos a muchos (N)] (Silberschatz, Korth y Sudarshan, 2002). Estas reglas orientan posteriormente la definición de claves foráneas en el modelo relacional.
+                      p.mb-0 Definen la cantidad de entidades que pueden asociarse entre sí dentro de una relación. Se clasifican en relaciones de #[b uno a uno (1:1)], #[b uno a muchos (1:N)] y #[b muchos a muchos (N:N)] (Silberschatz, Korth y Sudarshan, 2002). Estas reglas orientan posteriormente la definición de claves foráneas en el modelo relacional.
                     .col-xl-6
                       figure
                         img(src='@/assets/curso/temas/t2/img7.png', alt='' style="max-width: 400px").m-auto
@@ -94,7 +94,7 @@
             .row(titulo="Identificación de la clave primaria").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Se establece el atributo #[b Placa] como clave primaria de la entidad #[b VEHÍCULO], ya que identifica de manera única cada vehículo de la flota y no admite valores nulos.
             .row(titulo="Definición de las cardinalidades").ajuste-cajaAcordion.ajuste-vineta
-              p.mb-3 El análisis de las reglas de negocio determina que un vehículo puede ser conducido por diferentes conductores y que un conductor puede operar distintos vehículos. Esta situación corresponde a una relación #[b muchos a muchos (N)], por lo que será necesaria una entidad asociativa durante el diseño físico de la base de datos.
+              p.mb-3 El análisis de las reglas de negocio determina que un vehículo puede ser conducido por diferentes conductores y que un conductor puede operar distintos vehículos. Esta situación corresponde a una relación #[b muchos a muchos (N:N)], por lo que será necesaria una entidad asociativa durante el diseño físico de la base de datos.
             .row(titulo="Validación de la viabilidad").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 La organización aprueba la implementación de PostgreSQL al verificar que su modelo de licenciamiento permite desplegar el sistema en los 180 terminales de la flota sin generar costos adicionales por licencias de conexión, favoreciendo la sostenibilidad económica del proyecto.
       p.mb-5 La planificación conceptual constituye una etapa determinante dentro del ciclo de desarrollo de una base de datos, ya que permite representar correctamente las reglas del negocio, reducir reprocesos durante la implementación y garantizar que el modelo físico responda a las necesidades reales de la organización.
@@ -104,7 +104,7 @@
             h5 Figura 2.
             span Modelos E-R normalizado
           figure(data-aos="zoom-in")
-            img(src='@/assets/curso/temas/t2/img9.png', alt='Diagrama entidad-relación con las tablas Vehículo, Asignación_Viaje y Conductor, que incluye identificadores, atributos principales y relaciones entre vehículo, viaje y conductor, además de un elemento gráfico sobre escalabilidad y redundancia reducida.').m-auto
+            img(src='@/assets/curso/temas/t2/img1.jpg', alt='Diagrama entidad-relación con las tablas Vehiculo, Asignacion_Viaje y Conductor, que incluye identificadores, atributos principales y relaciones entre vehículo, viaje y conductor, además de un elemento gráfico sobre escalabilidad y redundancia reducida.').m-auto
 
 </template>
 

@@ -23,7 +23,7 @@ export default {
       titulo: 'Cuestionario',
       introduccion:
         '<b>Objetivo:</b> identificar los conceptos fundamentales relacionados con los sistemas gestores de bases de datos, la arquitectura de PostgreSQL, el modelo relacional, la planificación conceptual y la implementación de bases de datos.',
-      barajarPreguntas: false,
+      barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [

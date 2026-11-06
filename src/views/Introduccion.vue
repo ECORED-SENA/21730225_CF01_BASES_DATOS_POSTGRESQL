@@ -7,7 +7,7 @@
           span
             i.fas.fa-info
         h1 Introducción
-      p.mb-5 En la actualidad, los datos constituyen el activo estratégico más valioso de las organizaciones. Sin embargo, su aprovechamiento exige sistemas capaces de garantizar la seguridad, la integridad y la disponibilidad de la información. En este contexto, este componente formativo introduce al estudio de los #[b Sistemas Manejadores de Bases de Datos (DBMS, por sus siglas en inglés, #[i Database Management Systems])] mediante PostgreSQL, un motor de bases de datos de código abierto, orientado a objetos y ampliamente adoptado en la industria por su estabilidad, potencia y alta escalabilidad.
+      p.mb-5 En la actualidad, los datos constituyen el activo estratégico más valioso de las organizaciones. Sin embargo, su aprovechamiento exige sistemas capaces de garantizar la seguridad, la integridad y la disponibilidad de la información. En este contexto, este componente formativo introduce al estudio de los #[b Sistemas Manejadores de Bases de Datos (DBMS, por sus siglas en inglés, #[i Database Management System])] mediante PostgreSQL, un motor de bases de datos de código abierto, orientado a objetos y ampliamente adoptado en la industria por su estabilidad, potencia y alta escalabilidad.
       .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/intro/img1.jpg')})` }")

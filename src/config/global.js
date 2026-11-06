@@ -221,18 +221,17 @@ export default {
   referencias: [
     {
       referencia:
-        'Elmasri, R., & Navathe, S. B. (2021). Fundamentals of database systems. Pearson. ',
-      link: 'https://www.pearson.com/en-us/subject-catalog/p/fundamentals-of-database-systems/P200000003546/9780137502523 ',
+        'Elmasri, R., & Navathe, S. B. (2021). Fundamentals of database systems. Pearson.',
+      link: 'https://www.pearson.com/en-us/subject-catalog/p/fundamentals-of-database-systems/P200000003546/9780137502523',
+    },
+    {
+      referencia: 'Neon. (2026). Lakebase Postgres. ',
+      link: 'https://neon.com/docs/postgres/overview',
     },
     {
       referencia:
-        'Neon. (2026). Neon documentation: Separating storage and compute. ',
-      link: 'https://neon.com/docs/postgres/overview ',
-    },
-    {
-      referencia:
-        'PostgreSQL Global Development Group. (2026). PostgreSQL 16 documentation: Chapter 18. Server setup and operation. ',
-      link: 'https://www.postgresql.org/docs/16/runtime.html ',
+        'PostgreSQL Global Development Group. (2026). PostgreSQL 16 documentation: Chapter 19. Server setup and operation.',
+      link: 'https://www.postgresql.org/docs/16/runtime.html',
     },
     {
       referencia:
@@ -247,7 +246,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Profesional 06. Responsable del ecosistema virtual de recursos educativos digitales',
+            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -298,25 +297,25 @@ export default {
         },
         {
           nombre: 'Juan Pablo Rojas Polania',
-          cargo: 'Animador y productor audiovisual',
+          cargo: 'Animador y productor multimedia',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Carlos Eduardo Garavito Parada',
-          cargo: 'Animador y productor audiovisual',
+          cargo: 'Animador y productor multimedia',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Maria Carolina Tamayo Lopez',
-          cargo: 'Locución',
+          cargo: 'Locutora',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'German Acosta Ramos',
-          cargo: 'Locución',
+          cargo: 'Locutor',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
@@ -326,25 +325,25 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
+          nombre: 'Aixa Natalia Sendoya Fernández',
+          cargo: 'Validadora de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
           nombre: 'Ricardo Oliveros Zambrano',
           cargo: 'Validador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Aixa Natalia Sendoya Fernández',
-          cargo: 'Validador de recursos educativos digitales',
-          centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
-        },
-        {
-          nombre: 'Daniel Ricardo Mutis Gómez',
+          nombre: 'Anyerson Wilfredo Pizo Ossa',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Anyerson Wilfredo Pizo Ossa',
+          nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',

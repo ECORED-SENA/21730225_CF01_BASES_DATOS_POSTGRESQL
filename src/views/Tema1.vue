@@ -139,7 +139,7 @@
             .col
               h3 Controladores de conectividad estandarizada corporativa: JDBC, ODBC y alternativas modernas
       .box___style_2.mb-5
-        p.mb-0 Para que una aplicación desarrollada en cualquier lenguaje de programación pueda conectarse a un servidor de bases de datos, ejecutar instrucciones del #[b Lenguaje de Definición de Datos (DDL, por sus siglas en inglés, #[i Data Definition Language])] o del #[b Lenguaje de Manipulación de Datos (DML, por sus siglas en inglés, #[i Data Manipulation Language])], y procesar los resultados obtenidos, requiere un componente de #[i software] denominado controlador o driver.
+        p.mb-0 Para que una aplicación desarrollada en cualquier lenguaje de programación pueda conectarse a un servidor de bases de datos, ejecutar instrucciones del #[b Lenguaje de Definición de Datos (DDL, por sus siglas en inglés, #[i Data Definition Language])] o del #[b Lenguaje de Manipulación de Datos (DML, por sus siglas en inglés, #[i Data Manipulation Language])], y procesar los resultados obtenidos, se requiere un componente de #[i software] denominado controlador o #[i driver].
       p.mb-5 Los controladores proporcionan #[b Interfaces de Programación de Aplicaciones (API, por sus siglas en inglés, #[i Application Programming Interface])], las cuales estandarizan la comunicación entre las aplicaciones y el motor de base de datos, independientemente de la tecnología utilizada para desarrollar el sistema. Entre los controladores más utilizados en entornos corporativos se encuentran los siguientes:
       .bg___slider.mb-5
         .px-5
@@ -176,7 +176,7 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-xl.mb-4.mb-lg-0
           .box___style_3.fit___box_3(data-aos="fade-right")
-            p.mb-0 A diferencia de otros sistemas gestores que delegan el almacenamiento físico en motores intercambiables con comportamientos diferentes, PostgreSQL implementa una arquitectura de almacenamiento unificada y altamente integrada. Uno de los pilares que garantiza la consistencia de los datos y el rendimiento de las transacciones es el #[b Control de Concurrencia Multi-Versión (MVCC, por sus siglas en inglés, #[i Multi-Version Concurrency Control])].
+            p.mb-0 A diferencia de otros sistemas gestores que delegan el almacenamiento físico en motores intercambiables con comportamientos diferentes, PostgreSQL implementa una arquitectura de almacenamiento unificada y altamente integrada. Uno de los pilares que garantiza la consistencia de los datos y el rendimiento de las transacciones es el #[b control de concurrencia multi-versión (MVCC, por sus siglas en inglés, #[i multi-version concurrency control])].
         .col-xl-auto.col-md-9.mb-4.mb-lg-0(data-aos="zoom-in")
           figure
             img(src='@/assets/curso/temas/t1/img16.jpg', alt='' style="width: 300px").m-auto
@@ -268,7 +268,7 @@
             img(src="@/assets/curso/temas/t1/img3.png" style="max-width: 60px").m-auto
         .col
           h3 Administración visual avanzada con el entorno web centralizado pgAdmin
-      p.mb-5 El dominio de la interfaz de línea de comandos #[b (psql)] constituye una competencia fundamental para la administración de PostgreSQL debido a su rapidez y capacidad de automatización. No obstante, las herramientas con #[b Interfaz Gráfica de Usuario (GUI, por sus siglas en inglés, #[i Graphical User Interface])] incrementan la productividad durante las etapas de diseño, depuración, monitoreo y administración de la base de datos. La herramienta oficial desarrollada para PostgreSQL es #[b pgAdmin], un entorno de administración que integra funciones de desarrollo, monitoreo y gestión mediante una interfaz gráfica intuitiva.
+      p.mb-5 El dominio de la interfaz de línea de comandos #[b (psql)] constituye una competencia fundamental para la administración de PostgreSQL debido a su rapidez y capacidad de automatización. No obstante, las herramientas con #[b interfaz gráfica de usuario (GUI, por sus siglas en inglés, #[i graphical user interface])] incrementan la productividad durante las etapas de diseño, depuración, monitoreo y administración de la base de datos. La herramienta oficial desarrollada para PostgreSQL es #[b pgAdmin], un entorno de administración que integra funciones de desarrollo, monitoreo y gestión mediante una interfaz gráfica intuitiva.
       .row.justify-content-center.mb-5
         .col-xl-10
           .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")

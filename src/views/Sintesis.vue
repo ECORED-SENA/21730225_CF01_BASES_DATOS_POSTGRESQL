@@ -6,7 +6,7 @@
       .row.justify-content-center
         .col-lg-12.mb-5.bgs.p-4.brad
           figure
-            img(src="@/assets/curso/sintesis.svg", alt="Síntesis sobre la planificación e implementación de PostgreSQL, organizado en las áreas de arquitectura y fundamentos de DBMS, planificación y diseño, entornos de despliegue y herramientas de gestión, con conceptos relacionados como modelos relacionales, niveles de abstracción, arquitectura cliente-servidor, control de concurrencia, modelo entidad-relación, restricciones lógicas, instalación, conectividad y administración.")
+            img(src="@/assets/curso/sintesis.svg", alt="Síntesis sobre la planificación e implementación de PostgreSQL, organizada en las áreas de arquitectura y fundamentos de DBMS, planificación y diseño, entornos de despliegue y herramientas de gestión, con conceptos relacionados como modelos relacionales, niveles de abstracción, arquitectura cliente-servidor, control de concurrencia, modelo entidad-relación, restricciones lógicas, instalación, conectividad y administración.")
         .col-auto
           a.anexo.mb-0(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
             .anexo__icono
